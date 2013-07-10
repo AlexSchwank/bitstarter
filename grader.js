@@ -74,11 +74,8 @@ if(require.main == module) {
     var checkJson = "";
         
     if (program.file) {
-     console.log("Using file as input.");
      checkJson = checkHtmlFile(cheerioHtmlFile(program.file), program.checks);
     } else if (program.url) {
-      console.log("Using URL as input.");
-
       rest.get(program.url).on('complete', function(data) {
           if (data instanceof Error) {
             console.log("Error: " + data.message);
@@ -87,7 +84,6 @@ if(require.main == module) {
           }
       });
     } else {
-      console.log("No input defined. Using default file.");
       checkJson = checkHtmlFile(cheerioHtmlFile(HTMLFILE_DEFAULT), program.checks);
     }
 } else {
