@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<title>My First Bitstarter</title>
+		<title>2D Object Recognition Game - Bitstarter</title>
 		<meta name="viewport" content="width-device-width, initial-scale-1.0">
 		<link type="text/css" rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap-combined.no-icons.min.css">
     	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css">
@@ -125,17 +125,18 @@
 		<div class="container">
 			<div class="row-fluid heading">
 				<div class="span12">
-					<h1>Product</h1>
+					<h1>2D Object Recognition Game</h1>
 				</div>
 			</div>
 			<div class="row-fluid subheading">
 				<div class="span12">
-					<p class="lead">One sentence description.</p>
+					<p class="lead">Using 2D object recognition to generate towers for a tower defense game.</p>
 				</div>
 			</div>
 			<div class="row-fluid pitch">
 				<div class="span5 offset1 video">
-					<img class="img-polariod" src="http://placehold.it/480x330">
+					<img class="img-polariod" src="http://illuminations.nctm.org/lessons/6-8/sorting/Polygons.jpg">
+					<p>Example image of simple towers(taken from <a href="http://illuminations.nctm.org/LessonDetail.aspx?ID=L277">this</a> site).</p>
 				</div>
 
 				<div class="span5 actions">
@@ -143,19 +144,19 @@
 						<div class="statistics">
 							<div class="span4">
 								<div class="linediv-l">
-									<h3>1000</h3>
+									<h3>1</h3>
 									<p>backers</p>
 								</div>
 							</div>
 							<div class="span4">
 								<div class="linediv-c">
-									<h3>$6000</h3>
-									<p>of $10,000</p>
+									<h3>100 €</h3>
+									<p>of 5,000 €</p>
 								</div>
 							</div>
 							<div class="span4">
 								<div class="linediv-r">
-									<h3>10</h3>
+									<h3>50</h3>
 									<p>days left</p>
 								</div>
 							</div>
@@ -163,8 +164,8 @@
 					</div>
 					<div class="span10 offset1">
 						<div class="thermometer progress active">
-							<div class="bar bar-success" style="width: 60%;"></div>
-							<div class="bar bar-warning" style="width: 40%;"></div>
+							<div class="bar bar-success" style="width: 2%;"></div>
+							<div class="bar bar-warning" style="width: 98%;"></div>
 						</div>
 					</div>
 					<div class="span6 offset3 order">
@@ -179,23 +180,24 @@
 
 			<div class="row-fluid section1">
 				<div class="span5 offset1 asset">
-					<img class="img-polariod" src="http://placehold.it/480x330">
+					<img class="img-polariod" src="http://i.imgur.com/taxmyl1.png">
 				</div>
 
 				<div class="span5 copy">
 					<p>
-						Well, the way they make shows is, they make one show. That show's called a pilot. Then they show that show to the people who make shows, and on the strength of that one show they decide if they're going to make more shows. Some pilots get picked and become television programs. Some don't, become nothing. She starred in one of the ones that became nothing.
+						With our current technology it's already possible to play games more interactive. This project want's to continue the progress of more interactive games and create a <a href="https://en.wikipedia.org/wiki/Tower_defense">tower defense</a> game where one user only can use those towers another user has drawn. A webcam detects and recognizes the towers and gives the permission tu use them in the game.
 					</p>
 				</div>
 			</div>
 			<div class="row-fluid section2">
 				<div class="span5 offset1 copy copy-right">
 					<p>
-						Well, the way they make shows is, they make one show. That show's called a pilot. Then they show that show to the people who make shows, and on the strength of that one show they decide if they're going to make more shows. Some pilots get picked and become television programs. Some don't, become nothing. She starred in one of the ones that became nothing.
+						Focus of this project is the recognition of the towers but the graphics of the game are very important for the appearance, experience and usibility. I can't create high-level graphics so I need your help to hire a graphic designer to develop the game graphics. 
 					</p>
 				</div>
 				<div class="span5 asset">
-					<img class="img-polariod" src="http://placehold.it/480x330">
+					<img class="img-polariod" src="http://www.pygame.org/shots/1296.jpg">
+					<p>Screenshot from <a href="http://www.pygame.org/project-Python+PyGame+Tower+Defence-1296-.html">PyGame Tower Defence</a>.</p>
 				</div>
 			</div>
 
@@ -205,21 +207,26 @@
 					<div class="accordion" id="accordion2">
 						<div class="accordion-group">
 							<div class="accordion-heading">
-								<a class="accordion-toogle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">What does FAQ stand for?</a>
+								<a class="accordion-toogle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">Which technologies will be used?</a>
 							</div>
 							<div id="collapseOne" class="accordion-body collapse">
 								<div class="accordion-inner">
-									Frequently Asked Question.
+									<ul>
+										<li><a href="http://www.python.org/download/releases/2.7.3/">python 2.7.3</a></li>
+										<li><a href="http://www.pygame.org/">pygame 1.9.1</a></li>
+										<li><a href="http://opencv.org/">OpenCV</a>, version needs to be compatible to python 2.7</li>
+										<li><a href="http://www.numpy.org/">numpy</a>, version needs to be compatible to python 2.7</li>
+									</ul>
 								</div>
 							</div>
 						</div>
 						<div class="accordion-group">
 							<div class="accordion-heading">
-								<a class="accordion-toogle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">What's a Frequently Asked Question?</a>
+								<a class="accordion-toogle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">Where can I find progress informations?</a>
 							</div>
 							<div id="collapseTwo" class="accordion-body collapse">
 								<div class="accordion-inner">
-									A question which is commonly asked by users.
+									On this site or on <a href="https://github.com/AlexSchwank/CV_Game">github</a>.
 								</div>
 							</div>
 						</div>
